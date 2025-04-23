@@ -13,9 +13,9 @@ private :
 	double  cur_Time = 0;    // currentTime 
 
 public:
-	void TimeReset() { deltatime = 0; };
-	void TimeShoutdown(); // Time ShotDown
-	void TimeRender();	  // Time Render 
+	void TimeReset() { deltatime = 0; }; // Time Reset 
+	void TimeShoutdown();				 // Time ShotDown
+	void TimeRender();					 // Time Render 
 
 	// Timer Get code 
 	clock_t GetStartTime() { return startclock;  }
